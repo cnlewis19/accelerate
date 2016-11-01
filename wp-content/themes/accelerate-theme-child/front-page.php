@@ -15,6 +15,16 @@
 get_header(); ?>
 
 <section class="home-page">
+	<div class="site-content">
+		<?php while ( have_posts() ) : the_post(); ?>
+			<div class='homepage-hero'>
+				<?php the_content(); ?>
+				<a class="button" href="<?php echo home_url(); ?>/blog">View Our Work</a>
+			</div>
+		<?php endwhile; // end of the loop. ?>
+	</div><!-- .container -->
+</section><!-- .home-page -->
+
 <section class="recent-posts">
 	<div class="site-content">
 		<div class="blog-post">
@@ -25,15 +35,9 @@ get_header(); ?>
 				<?php the_excerpt (); ?>
 				<a class="read-more-link" href="<?php the_permalink(); ?>"> Read More <span>&rsaquo;</span></a>
 			<?php endwhile; ?>
-		<?php while ( have_posts() ) : the_post(); ?>
-			<div class='homepage-hero'>
-				<?php the_content(); ?>
-				<a class="button" href="<?php echo home_url(); ?>/blog">View Our Work</a>
-			</div>
-		<?php endwhile; // end of the loop. ?>
-	</div><!--.blog-post-->
-	</div><!-- .container -->
-</section><!-- .recent-posts -->
-</section><!-- .home-page -->
+			<?php wp_reset_query(); ?>
+		</div>
+	</div>
+</section>
 
 <?php get_footer(); ?>
