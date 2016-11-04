@@ -43,3 +43,52 @@
   color: #45ac9d;
   text-transform: uppercase;
 }
+
+
+.description-pane {
+  width: 40%;
+  float: left;
+  padding-right: 20px;
+}
+
+.image-pane {
+  width: 55%;
+  float: left;
+  padding-left: 15px;
+}
+.case-study-title {
+  color: #3b3b3b;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+.case-study-tags {
+  color: #878787;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 10px;
+  margin-top: -5px;
+  font-weight: lighter;
+}
+.case-study-client {
+  color: #3b3b3b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14.5px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+.case-study-description {
+  color: #3b3b3b;
+  font-size: 16.5px;
+  font-family: 'Open Sans', sans-serif;
+}
+.case-study-link {
+  color: #3b3b3b;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14.5px;
+  line-height: 10px;
+}
+.case-study-image {
+  width: 95%;
+  height: auto;
+}
