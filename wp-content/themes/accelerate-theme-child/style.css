@@ -93,3 +93,19 @@
   height: auto;
   margin-bottom: 8px;
 }
+.homepage-featured-work {
+  list-style: none;
+}
+.individual-featured-work {
+  float: left;
+  width: 33%;
+  margin-bottom: 10px;
+}
+.featured-work-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.featured-work {
+  margin-bottom: 10px;
+}
