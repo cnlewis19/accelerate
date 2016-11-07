@@ -116,3 +116,37 @@
    height: 0;
    clear: both;
 }
+.nf-field-container.textbox-container.label-above,
+.nf-field-container.email-container.label-above {
+    display: block;
+    width: 49%;
+    float: left;
+    clear: initial;
+}
+
+.nf-field-container.email-container.label-above {
+  margin-left: 2%;
+}
+
+#nf-field-1, #nf-field-2 {
+  height: 40px;
+}
+#primary{
+  width: 55%;
+}
+.nf-field-label {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #3b3b3b;
+}
+#nf-field-4 {
+  background: #45ac9d;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  width: 170px;
+  height: 60px;
+  float: right;
+}
