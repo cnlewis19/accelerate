@@ -26,7 +26,7 @@ get_header(); ?>
 </section><!-- .home-page -->
 
 <section class="featured-work">
-	<div class="site-content">
+	<div class="site-content clearfix">
 		<h4 class="featured-work-title"> Featured Work </h4>
 
 		<ul class="homepage-featured-work">
