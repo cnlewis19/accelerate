@@ -162,3 +162,15 @@
 .image-pane img {
     margin-bottom: 50px;
 }
+.about-page{
+    background: url("img/taxi-photo.jpg") no-repeat scroll center left / cover rgba(0, 0, 0, 0);
+    padding: 150px;
+  }
+.about-heading {
+  font-family: 'Open-Sans', sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 35px;
+}
