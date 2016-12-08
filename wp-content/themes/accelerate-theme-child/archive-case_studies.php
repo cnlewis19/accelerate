@@ -23,11 +23,10 @@ get_header(); ?>
     <div class="description-pane">
         	<h1 class="case-study-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></h1>
         	<h3 class="case-study-tags"><?php echo $services; ?></h3>
-        	<h2 class="case-study-client">Client: <?php echo $clients; ?></h2>
 
-        	<?php the_excerpt(); ?>
+        	<p class="excerpt"> <?php the_excerpt(); ?> <p> 
 
-        	<p><a href="<?php the_permalink(); ?>"> View Project </a></p>
+        	<p class="project-link"><a href="<?php the_permalink(); ?>"> View Project </a></p>
       </div>
 
       <div class="image-pane">

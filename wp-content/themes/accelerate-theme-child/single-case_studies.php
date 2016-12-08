@@ -16,7 +16,7 @@ get_header(); ?>
 
 
 			<?php while ( have_posts() ) : the_post();
-					$size = "full";
+					$size = "large";
 					$services = get_field('services');
 					$clients = get_field('clients');
 					$link = get_field('site_link');
@@ -32,7 +32,7 @@ get_header(); ?>
 
 		<?php the_content(); ?>
 
-		<p><a href="<?php echo $link; ?>"> Site Link </a></p>
+		<p class="site-link"><a href="<?php echo $link; ?>"> Vist Live Site </a></p>
 	</div>
 
 	<div class="image-pane">
